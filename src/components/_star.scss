@@ -43,16 +43,16 @@
     width: 96px;
     height: 16px;
     box-sizing: border-box;
+  }
 
-    &__item {
-      height: $star-size;
-      width: $star-size;
-      background-image: $star-default-img;
-      background-repeat: no-repeat;
-      background-position: center;
-      &:not(:last-child) {
-        margin-right: $star-margin;
-      }
+  &__item {
+    height: $star-size;
+    width: $star-size;
+    background-image: $star-default-img;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:not(:last-child) {
+      margin-right: $star-margin;
     }
   }
 

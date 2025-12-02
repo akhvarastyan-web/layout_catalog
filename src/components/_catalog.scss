@@ -35,9 +35,10 @@
     font-weight: 500;
     overflow: hidden;
     transition: color 300ms ease;
-    &:hover &__name {
-      color: #34568b;
-    }
+  }
+
+  &:hover &__name {
+    color: $color-link-title;
   }
 
   &__code {
